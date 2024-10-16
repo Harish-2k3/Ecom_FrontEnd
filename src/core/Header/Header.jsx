@@ -10,7 +10,6 @@ export default function Header() {
   const { isLogIn, userDetails, logout } = useAuth();
   console.log(isLogIn)
   console.log(userDetails())
-  console.log(isLogIn)
   const handlelogout = () => {
     logout()
     navigate('/register')

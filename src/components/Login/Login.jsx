@@ -24,7 +24,7 @@ const handellogin=async(e)=>{
 const sucessfulllogin=(res)=>{
   setToken(res.token);
   toast.success(res.message);
-  navigate("/home");
+  navigate("/profile");
 }
 
 
